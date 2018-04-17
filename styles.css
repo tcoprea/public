@@ -1,0 +1,47 @@
+#grad {
+    background: linear-gradient(to right, #ff3399, #99ff66);
+}
+header {
+    margin-bottom: 10px;
+
+}
+header span {
+  padding: 10px;
+}
+
+div > span {
+  font-weight: bold;
+  padding: 10px;
+}
+
+body {
+  /* background-image: url("o904388.jpg"); */
+  font-family: sans-serif;
+  color: white;
+}
+
+.container {
+
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 200px);
+}
+
+.container> div {
+  opacity:
+  padding: 15px;
+  background-color: #330033;
+  border: 3px solid white;
+  /* align-content: center; */
+}
+
+span {
+
+}
+
+#navbar > div {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2em;
+}
